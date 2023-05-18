@@ -11,6 +11,15 @@
 		BC8E7D462A160D8100DA43E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D452A160D8100DA43E8 /* ContentView.swift */; };
 		BC8E7D482A160D8200DA43E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8E7D472A160D8200DA43E8 /* Assets.xcassets */; };
 		BC8E7D4B2A160D8200DA43E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8E7D4A2A160D8200DA43E8 /* Preview Assets.xcassets */; };
+		BC8E7D662A1617C300DA43E8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D5C2A1617AB00DA43E8 /* Route.swift */; };
+		BC8E7D672A1617C300DA43E8 /* RoutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D572A1617AB00DA43E8 /* RoutableCollection.swift */; };
+		BC8E7D682A1617C300DA43E8 /* View+cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D582A1617AB00DA43E8 /* View+cover.swift */; };
+		BC8E7D692A1617C300DA43E8 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D5B2A1617AB00DA43E8 /* Node.swift */; };
+		BC8E7D6A2A1617C300DA43E8 /* View+showing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D542A1617AB00DA43E8 /* View+showing.swift */; };
+		BC8E7D6B2A1617C300DA43E8 /* Binding+withDelaysIfUnsupported.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D552A1617AB00DA43E8 /* Binding+withDelaysIfUnsupported.swift */; };
+		BC8E7D6C2A1617C300DA43E8 /* RoutableCollection+utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D592A1617AB00DA43E8 /* RoutableCollection+utilities.swift */; };
+		BC8E7D6D2A1617C300DA43E8 /* RouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D562A1617AB00DA43E8 /* RouteProtocol.swift */; };
+		BC8E7D6E2A1617C300DA43E8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8E7D5A2A1617AB00DA43E8 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		BC8E7D452A160D8100DA43E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC8E7D472A160D8200DA43E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8E7D4A2A160D8200DA43E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC8E7D542A1617AB00DA43E8 /* View+showing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+showing.swift"; sourceTree = "<group>"; };
+		BC8E7D552A1617AB00DA43E8 /* Binding+withDelaysIfUnsupported.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+withDelaysIfUnsupported.swift"; sourceTree = "<group>"; };
+		BC8E7D562A1617AB00DA43E8 /* RouteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteProtocol.swift; sourceTree = "<group>"; };
+		BC8E7D572A1617AB00DA43E8 /* RoutableCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutableCollection.swift; sourceTree = "<group>"; };
+		BC8E7D582A1617AB00DA43E8 /* View+cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+cover.swift"; sourceTree = "<group>"; };
+		BC8E7D592A1617AB00DA43E8 /* RoutableCollection+utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoutableCollection+utilities.swift"; sourceTree = "<group>"; };
+		BC8E7D5A2A1617AB00DA43E8 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BC8E7D5B2A1617AB00DA43E8 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		BC8E7D5C2A1617AB00DA43E8 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,7 @@
 		BC8E7D422A160D8100DA43E8 /* FlowStacksTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				BC8E7D532A1617AB00DA43E8 /* FlowStacks */,
 				BC8E7D432A160D8100DA43E8 /* FlowStacksTestAppApp.swift */,
 				BC8E7D452A160D8100DA43E8 /* ContentView.swift */,
 				BC8E7D472A160D8200DA43E8 /* Assets.xcassets */,
@@ -65,6 +84,22 @@
 				BC8E7D4A2A160D8200DA43E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC8E7D532A1617AB00DA43E8 /* FlowStacks */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E7D542A1617AB00DA43E8 /* View+showing.swift */,
+				BC8E7D552A1617AB00DA43E8 /* Binding+withDelaysIfUnsupported.swift */,
+				BC8E7D562A1617AB00DA43E8 /* RouteProtocol.swift */,
+				BC8E7D572A1617AB00DA43E8 /* RoutableCollection.swift */,
+				BC8E7D582A1617AB00DA43E8 /* View+cover.swift */,
+				BC8E7D592A1617AB00DA43E8 /* RoutableCollection+utilities.swift */,
+				BC8E7D5A2A1617AB00DA43E8 /* Router.swift */,
+				BC8E7D5B2A1617AB00DA43E8 /* Node.swift */,
+				BC8E7D5C2A1617AB00DA43E8 /* Route.swift */,
+			);
+			path = FlowStacks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8E7D6E2A1617C300DA43E8 /* Router.swift in Sources */,
+				BC8E7D662A1617C300DA43E8 /* Route.swift in Sources */,
+				BC8E7D6D2A1617C300DA43E8 /* RouteProtocol.swift in Sources */,
+				BC8E7D672A1617C300DA43E8 /* RoutableCollection.swift in Sources */,
 				BC8E7D462A160D8100DA43E8 /* ContentView.swift in Sources */,
+				BC8E7D692A1617C300DA43E8 /* Node.swift in Sources */,
+				BC8E7D6B2A1617C300DA43E8 /* Binding+withDelaysIfUnsupported.swift in Sources */,
 				BC8E7D442A160D8100DA43E8 /* FlowStacksTestAppApp.swift in Sources */,
+				BC8E7D6A2A1617C300DA43E8 /* View+showing.swift in Sources */,
+				BC8E7D682A1617C300DA43E8 /* View+cover.swift in Sources */,
+				BC8E7D6C2A1617C300DA43E8 /* RoutableCollection+utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
